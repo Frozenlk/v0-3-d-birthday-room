@@ -30,9 +30,9 @@ export function InteractionDialog({ type, onClose }: InteractionDialogProps) {
       case "cake":
         return {
           icon: <Sparkles className="w-12 h-12 text-primary mx-auto mb-4" />,
-          title: "🎂 Make a Wish!",
+          title: "Happy Birthday ❤️",
           description:
-            "May all your dreams come true this year! Wishing you endless joy, laughter, and unforgettable moments. Happy Birthday! 🎉",
+            "✨ “Having you as my sister is one of the best gifts life gave me. Wishing you all the love and happiness you bring into my life. Happy Birthday ❤️",
         }
       case "balloon":
         return {

@@ -29,7 +29,7 @@ export function Balloons({ position, onClick }: BalloonsProps) {
           {/* Balloon */}
           <mesh
             castShadow
-            onClick={onClick}
+            //onClick={onClick}
             onPointerOver={() => setHovered(true)}
             onPointerOut={() => setHovered(false)}
             style={{ cursor: hovered ? "pointer" : "auto" }}
